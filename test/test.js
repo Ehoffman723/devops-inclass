@@ -12,3 +12,9 @@ describe('First two terms', function() {
       assert.strictEqual(main.factorial(1), 1);
     });
 });
+
+describe('Negative', function() {
+  it('should return Factorial for negative number is not defined!', function() {
+        assert.strictEqual(main.factorial(-1), 'Factorial for negative number is not defined!');
+    });
+});
